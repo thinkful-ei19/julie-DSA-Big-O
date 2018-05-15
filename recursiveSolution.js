@@ -113,6 +113,8 @@ function split(str, sep) {
 	//return str.slice(0,idx).concat(split(str.slice(idx + sep.length), sep))
 }
 
+// O(n) - Linear Time depends on how long the string is
+
 /*=================================================================================
 Exercise 6 - Binary Representation
 Write a recursive function that prints out the binary representation of a given number. 
