@@ -64,6 +64,8 @@ function reverseString(str) {
     return reverseString(str.slice(1)) + str[0];
 }
 
+// O(n) - Linear Time, same as above :) longer the data set, longer the time
+
 
 /*=================================================================================
 Exercise 4 - Triangular Number
