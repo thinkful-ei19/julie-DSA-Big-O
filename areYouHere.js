@@ -8,3 +8,6 @@ function areYouHere(arr1, arr2) {
     }
     return false;
 }
+
+// O(n^2) - Polynomial Time
+// with the loop within the loop
