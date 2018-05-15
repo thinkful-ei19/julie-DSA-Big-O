@@ -179,6 +179,8 @@ function fibonacci(n) {
   return fibonacci(n - 1) + fibonacci(n - 2);	
 }
 
+// O(n^2) - Polynomial Time by adding preceding numbers for the sequence
+
 /*=================================================================================
 Exercise 9 - Anagrams
 An anagram is any word or phrase that exactly reproduces the letters in another order. 
