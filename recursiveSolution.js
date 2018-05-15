@@ -29,7 +29,7 @@ function countSheep(num){
     }
 }
 
-//O(n) - Linear Time as N grows, so would time  
+// O(n) - Linear Time as N grows, so would time  
 
 
 /*=================================================================================
@@ -46,6 +46,8 @@ function double_all(arr) {
     }
     return [arr[0] * 2, ...double_all(arr.slice(1))];
 }
+
+// O(n) - Linear Time, longer the array, longer it would take 
 
 /*=================================================================================
 Exercise 3 - Reverse String
