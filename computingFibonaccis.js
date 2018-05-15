@@ -24,3 +24,6 @@ function generateFib(num) {
     return result;
   }
   
+
+// O(n) - Linear 
+// despite loop, still grows linearly

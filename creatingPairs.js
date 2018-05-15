@@ -5,3 +5,6 @@ function createPairs(arr) {
         }
     }
 }
+
+// O(n^2) - Polynomial 
+// loop within a loop pattern names it a polymial 
