@@ -5,4 +5,5 @@ function doubleArrayValues(array) {
     return array;
 }
 
-// 
+// O(n) - Linear Time
+// grows linearly and in direct proportion to the size of input data set
