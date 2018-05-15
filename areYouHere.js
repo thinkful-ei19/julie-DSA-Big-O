@@ -11,3 +11,4 @@ function areYouHere(arr1, arr2) {
 
 // O(n^2) - Polynomial Time
 // with the loop within the loop
+// going through each element twice
