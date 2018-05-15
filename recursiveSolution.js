@@ -134,6 +134,8 @@ function convertToBinary(num){
     }
 }
 
+// O(n) - Linear Time goes through process, bigger number, longer time 
+
 /*=================================================================================
 Exercise 7 - Factorial
 Write a recursive program that finds the factorial of a given number. 
@@ -151,6 +153,8 @@ function factorial(n) {
   // It will run for all other conditions except when n is equal to 0
   return n * factorial(n - 1);
 }
+
+// O(n) - Linear Time the bigger the number, the bigger the calculation
 
 /*=================================================================================
 Exercise 8 - Fibonacci
