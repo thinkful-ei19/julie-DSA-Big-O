@@ -92,6 +92,8 @@ function triangle(n) {
     return n + triangle(n - 1);
 }
 
+// O(n) - Linear Time, runs all the code and grows with it 
+
 /*=================================================================================
 Exercise 5 - String Splitter
 Split a string based upon a separator (similar to String.prototype.split).
