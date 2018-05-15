@@ -180,6 +180,7 @@ function fibonacci(n) {
 }
 
 // O(n^2) - Polynomial Time by adding preceding numbers for the sequence
+// AND O(n) - Linear, longer the sequence, longer it takes 
 
 /*=================================================================================
 Exercise 9 - Anagrams
@@ -212,6 +213,8 @@ function printAnagram(word){
     anagrams(' ', word);
 
 }
+
+// O(2(n)) - Exponential Time grows drastically with each additional data set
 
 /* ==============================
 Exercise 10: Animal Hierarchy
