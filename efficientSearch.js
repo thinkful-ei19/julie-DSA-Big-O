@@ -22,4 +22,4 @@ function efficientSearch(array, item) {
 }
 
 // O(log(n)) - Logaithmic Time
-// cuts data set in half, the key indicator
+// cuts data set in half, the key indicator 
