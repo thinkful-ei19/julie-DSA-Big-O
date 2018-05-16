@@ -242,6 +242,7 @@ function traverse(animalHierarchy, parent) {
     return node;  
 }
 
+// O(n^2) - Polynomial Time loop within a loop 
 
 /*=================================================================================*/
 /*
@@ -370,3 +371,5 @@ function main(){
 
 }
 main()
+
+//  O(n) - Linear Time depends on how big the data tree is 
