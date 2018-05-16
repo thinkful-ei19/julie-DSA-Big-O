@@ -14,6 +14,8 @@ function countSheepLoop(num){
 }
 countSheepLoop(10);
 
+//O(n) - Linear data set grows, so would run time 
+
 
 /*====================================================================
 //Exercise 2: Take an array as input which contains an unknown set of numbers,
@@ -31,6 +33,9 @@ function double_all(arr) {
 }
 let arr = [10,4,5,2,1];
 console.log(double_all(arr));
+
+
+// O(n) - Linear Time outcome proportional to input 
 
 /*====================================================================*/
 //Exercise 3: Take a string as input, reverse the string, and return the new
