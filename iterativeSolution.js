@@ -50,6 +50,8 @@ function reverse_tail(str) {
     return accumulator;
 }
 
+// O(n) - Linear Time runs through all the content within loop once 
+
 /*====================================================================*/
 //Exercise 4: Calculates the nth triangular number.
 //Should always return n*(n+1)/2
