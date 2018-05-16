@@ -62,6 +62,9 @@ function triangle(n) {
     }
     return tot;
 }
+
+// O(n) - Linear Time grows proportionally
+
 /*====================================================================*/
 //Exercise 5: Split a string based upon a separator (similar to
 //String.prototype.split).
@@ -78,6 +81,8 @@ function split(str, sep) {
     ret.push(str);
     return ret;
 }
+
+// O(n) - Linear Time goes through code once 
 
 /*=================================================================================
 Exercise 6 - Binary Representation
