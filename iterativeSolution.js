@@ -104,6 +104,7 @@ function convertToBinaryIter(num){
 console.log(convertToBinaryIter(124)); //1111100
 
 // O(n) - Linear Time has to go through all the steps to be able to produce the outcome
+// and O(log(n)) - Logarithmic 
 
 /*=================================================================================
 Exercise 7 - Factorial
@@ -119,6 +120,8 @@ function factorialIterative(number){
    return fact;
 }
 console.log(factorialIterative(5));
+
+// O(n) - Linear Time as it grows with data set
 
 /*=================================================================================
 Exercise 8 - Fibonacci
@@ -141,8 +144,7 @@ function fibonacciIterative(number){
 
 }
 
-//print the whole sequence
-
+// O(n) - Linear Time goes through entirety 
 
 //******** ES6 makes it a bit easier*****
 function fibonacciIterative2(number){
