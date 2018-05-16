@@ -103,6 +103,8 @@ function convertToBinaryIter(num){
 }
 console.log(convertToBinaryIter(124)); //1111100
 
+// O(n) - Linear Time has to go through all the steps to be able to produce the outcome
+
 /*=================================================================================
 Exercise 7 - Factorial
 Write a recursive program that finds the factorial of a given number. 
